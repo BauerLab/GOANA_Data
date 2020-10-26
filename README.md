@@ -35,6 +35,7 @@ Alignments are provided in **alignments**.
 Alignment files were then analysed with GOANA. An example command line is provided below:
 
 ```
+GOANA.py -mc 0 <file.bed> <control.sorted.bam> <treated.sorted.bam>
 ```
 
 GOANA output is stored in **GOANA_output**.
